@@ -1,0 +1,53 @@
+@startuml
+
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+
+Container_Boundary(dataGovernanceContainer, "Модуль управления данными и политиками конфиденциальности") {
+
+    Component(dataTaggingService, "Служба тегирования данных", "Java/Spring Boot", "Автоматически присваивает теги (PII, SPD, HealthData и т.д.) записям или полям данных на основе правил или содержимого.")
+    Component(policyEngine, "Движок политик (Policy Engine)", "Java/OPA", "Интерпретирует политики конфиденциальности, определяет, разрешен ли доступ к данным для конкретного субъекта.")
+    Component(pep, "Точка принудительного применения политик (PEP)", "Java/Spring Interceptor", "Перехватывает запросы к данным/API, консультируется с Policy Engine для проверки разрешений.")
+    Component(dataLifecycleService, "Служба управления жизн. циклом данных", "Java/Spring Boot", "Обрабатывает запросы на удаление данных (Right to be Forgotten), управляет сроками хранения.")
+    Component(policyApi, "API управления политиками", "REST/JSON", "Интерфейс для администраторов для создания, изменения и удаления политик конфиденциальности.")
+    Component(taggingApi, "API тегирования", "REST/JSON", "Интерфейс для других сервисов для запроса тегов или ручного тегирования.")
+}
+
+
+System_Ext(iamSystem, "Модуль IAM", "Система аутентификации и авторизации.")
+System_Ext(databaseSystem, "База данных", "Хранилище данных пациентов, политик, тегов.")
+System_Ext(loggingSystem, "Модуль аудита", "Сбор и хранение логов доступа.")
+
+
+Rel(pep, policyEngine, "Проверяет разрешения (запрос)")
+Rel(policyEngine, databaseSystem, "Читает политики и теги данных")
+Rel(dataTaggingService, databaseSystem, "Читает правила, записывает теги")
+Rel(dataLifecycleService, databaseSystem, "Удаляет/обновляет данные")
+Rel(policyApi, dataLifecycleService, "Запрашивает удаление данных")
+Rel(policyApi, databaseSystem, "Управляет политиками в БД")
+Rel(taggingApi, dataTaggingService, "Запрашивает/устанавливает теги")
+
+
+Rel(dataTaggingService, loggingSystem, "Логирует тегирование")
+Rel(policyEngine, loggingSystem, "Логирует решения")
+Rel(pep, loggingSystem, "Логирует попытки доступа")
+Rel(dataLifecycleService, loggingSystem, "Логирует удаления")
+
+
+Rel_Neighbor(pep, iamSystem, "Проверяет токен/роль пользователя")
+Rel_Neighbor(policyApi, iamSystem, "Аутентифицирует администратора")
+Rel_Neighbor(taggingApi, iamSystem, "Аутентифицирует сервис")
+
+
+title Компоненты "Модуль управления данными и политиками конфиденциальности" (C4 Components)
+
+
+note right of dataGovernanceContainer
+  Этот контейнер реализует ключевые аспекты Privacy by Design:
+  - Автоматическое управление тегами данных.
+  - Централизованное хранение и применение политик.
+  - Принудительная проверка доступа на уровне API.
+  - Обработка запросов на удаление данных.
+end note
+
+@enduml

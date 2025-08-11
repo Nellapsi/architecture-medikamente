@@ -1,0 +1,316 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Медикаменте DFD Уровень 0 - As-Is" id="zt_YC4gq5gb2jBFVroi1">
+    <mxGraphModel dx="1968" dy="1304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-1" value="Высокий риск снижения производительности или сбоев" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="870" y="220" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-2" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="260" as="sourcePoint" />
+            <mxPoint x="870" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-3" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="5ifu0JlBtwIxs7Ys6Q85-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="260" as="sourcePoint" />
+            <mxPoint x="320" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-4" value="Инфраструктура" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-5" value="Недостаточная производительность" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="140" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-6" value="Единая точка отказа" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-7" value="Сложность управления K8s" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-10" value="Низкая производительность сервисов" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-12" value="" style="endArrow=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="5ifu0JlBtwIxs7Ys6Q85-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="260" as="sourcePoint" />
+            <mxPoint x="380" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-13" value="Интеграция" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="410" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-14" value="Медленные API" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="330" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-15" value="Потеря данных" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-16" value="" style="endArrow=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="5ifu0JlBtwIxs7Ys6Q85-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="260" as="sourcePoint" />
+            <mxPoint x="620" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-17" value="Персонал" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="429" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-18" value="Недостаток квалификации" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="330" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-19" value="Сопротивление изменениям" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="350" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-20" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="5ifu0JlBtwIxs7Ys6Q85-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="260" as="sourcePoint" />
+            <mxPoint x="720" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-21" value="Процессы" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-22" value="Неправильный план миграции" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="130" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-23" value="Недостаточное тестирование" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-24" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="5ifu0JlBtwIxs7Ys6Q85-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="260" as="sourcePoint" />
+            <mxPoint x="820" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-25" value="Данные" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-26" value="Низкое качество данных" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="110" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-27" value="Потеря данных при миграции" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="130" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-30" value="Нет четкой процедуры управления инцидентами во время миграции." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="150" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-31" value="Подробнее по диаграмме:&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Инфраструктура:&lt;/span&gt;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Недостаточная производительность новой инфраструктуры (CPU, RAM, Disk I/O, Network) под увеличенную нагрузку.&lt;/li&gt;&lt;li&gt;Единая точка отказа в старой системе -&amp;gt; необходимость обеспечения высокой доступности (HA) и отказоустойчивости (FT) в новой.&lt;/li&gt;&lt;li&gt;Проблемы с сетью при переходе от локальной к распределенной/облачной архитектуре.&lt;/li&gt;&lt;li&gt;Недостаточное резервирование и восстановление после аварии (Disaster Recovery).&lt;/li&gt;&lt;li&gt;Сложность управления контейнерами/виртуальными машинами без опыта (Kubernetes, Docker).&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Интеграция&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Медленные или ненадежные API-интерфейсы для связи между микросервисами (например, синхронные вызовы без таймаутов).&lt;/li&gt;&lt;li&gt;Проблемы с интеграцией с внешними системами (ККМ, лаборатория) через новые API.&lt;/li&gt;&lt;li&gt;Потеря данных или задержки при передаче между сервисами.&lt;/li&gt;&lt;li&gt;Отсутствие механизмов обработки ошибок и повторных попыток (retry) в интеграциях.&lt;/li&gt;&lt;li&gt;Несовместимость новых API с существующими клиентами (напр., 1С).&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Персонал:&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Недостаток квалификации у IT-персонала в новых технологиях (K8s, микросервисы, облачные платформы).&lt;/li&gt;&lt;li&gt;Сопротивление изменениям со стороны пользователей (администраторы, бухгалтеры, ресепшен).&lt;/li&gt;&lt;li&gt;Недостаточное обучение пользователей новым интерфейсам и процессам.&lt;/li&gt;&lt;li&gt;Потеря знаний об устаревшей системе, необходимых для точной миграции.&lt;/li&gt;&lt;li&gt;Недостаток команды для одновременной разработки, тестирования и миграции.&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Процессы:&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Недостаточно проработанный план миграции с четкими этапами, откатом и тестированием.&lt;/li&gt;&lt;li&gt;Неправильный порядок миграции компонентов (например, миграция UI до бэкенда).&lt;/li&gt;&lt;li&gt;Отсутствие стресс-тестирования и нагрузочного тестирования до перехода на прод.&lt;/li&gt;&lt;li&gt;Недостаточное тестирование пользовательских сценариев.&lt;/li&gt;&lt;li&gt;Нет четкой процедуры управления инцидентами во время миграции.&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Данные:&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Проблемы с качеством исходных данных (ошибки, дубликаты) при переносе в новую систему.&lt;/li&gt;&lt;li&gt;Длительное время миграции больших объемов данных.&lt;/li&gt;&lt;li&gt;Потеря или искажение данных при переносе.&lt;/li&gt;&lt;li&gt;Недостаточная производительность новых хранилищ (БД, Data Lake) под нагрузкой.&lt;/li&gt;&lt;li&gt;Сложность обеспечения согласованности данных между сервисами (распределенные транзакции).&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="60" width="520" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-34" value="Рекомендации и приоритеты " style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="490" width="890" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-35" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-34">
+          <mxGeometry y="30" width="890" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-36" value="Приоритет" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-35">
+          <mxGeometry width="90" height="30" as="geometry">
+            <mxRectangle width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-37" value="Мера" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-35">
+          <mxGeometry x="90" width="270" height="30" as="geometry">
+            <mxRectangle width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-38" value="Описание" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-35">
+          <mxGeometry x="360" width="410" height="30" as="geometry">
+            <mxRectangle width="410" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-59" value="Категория" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-35">
+          <mxGeometry x="770" width="120" height="30" as="geometry">
+            <mxRectangle width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-34">
+          <mxGeometry y="60" width="890" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-48" value="Высокий" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-47">
+          <mxGeometry width="90" height="60" as="geometry">
+            <mxRectangle width="90" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-49" value="&lt;div&gt;Провести Proof of Concept (PoC) и нагрузочное тестирование&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-47">
+          <mxGeometry x="90" width="270" height="60" as="geometry">
+            <mxRectangle width="270" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-50" value="До начала полноценной миграции необходимо создать прототип ключевых сервисов и протестировать их производительность и масштабируемость под ожидаемой нагрузкой." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-47">
+          <mxGeometry x="360" width="410" height="60" as="geometry">
+            <mxRectangle width="410" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-60" value="Инфраструктура" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-47">
+          <mxGeometry x="770" width="120" height="60" as="geometry">
+            <mxRectangle width="120" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-39" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-34">
+          <mxGeometry y="120" width="890" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-40" value="Высокий" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-39">
+          <mxGeometry width="90" height="70" as="geometry">
+            <mxRectangle width="90" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-41" value="&lt;div&gt;Разработать детальный план миграции с откатом&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-39">
+          <mxGeometry x="90" width="270" height="70" as="geometry">
+            <mxRectangle width="270" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-42" value="&lt;div&gt;Создать поэтапный план с четкими критериями успеха/провала, возможностью быстрого отката на предыдущую версию, минимальными &quot;тайм-аутами&quot; системы.&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-39">
+          <mxGeometry x="360" width="410" height="70" as="geometry">
+            <mxRectangle width="410" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-61" value="Процессы" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-39">
+          <mxGeometry x="770" width="120" height="70" as="geometry">
+            <mxRectangle width="120" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-43" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-34">
+          <mxGeometry y="190" width="890" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-44" value="Высокий" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-43">
+          <mxGeometry width="90" height="70" as="geometry">
+            <mxRectangle width="90" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-45" value="&lt;div&gt;Обеспечить обучение персонала&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-43">
+          <mxGeometry x="90" width="270" height="70" as="geometry">
+            <mxRectangle width="270" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-46" value="&lt;div&gt;Провести тренинги для IT-специалистов (DevOps, разработка микросервисов) и конечных пользователей (ресепшен, бухгалтерия) до или параллельно с миграцией.&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-43">
+          <mxGeometry x="360" width="410" height="70" as="geometry">
+            <mxRectangle width="410" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-62" value="Персонал" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-43">
+          <mxGeometry x="770" width="120" height="70" as="geometry">
+            <mxRectangle width="120" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-63" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-34">
+          <mxGeometry y="260" width="890" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-64" value="Высокий" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-63">
+          <mxGeometry width="90" height="60" as="geometry">
+            <mxRectangle width="90" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-65" value="&lt;div&gt;Реализовать надежную систему мониторинга и алертинга&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-63">
+          <mxGeometry x="90" width="270" height="60" as="geometry">
+            <mxRectangle width="270" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-66" value="&lt;div&gt;Внедрить инструменты (Prometheus, Grafana, ELK) для наблюдения за состоянием инфраструктуры, сервисов и пользовательских сценариев в реальном времени.&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-63">
+          <mxGeometry x="360" width="410" height="60" as="geometry">
+            <mxRectangle width="410" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-67" value="Инфраструктура" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-63">
+          <mxGeometry x="770" width="120" height="60" as="geometry">
+            <mxRectangle width="120" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-68" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-34">
+          <mxGeometry y="320" width="890" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-69" value="Средний" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-68">
+          <mxGeometry width="90" height="60" as="geometry">
+            <mxRectangle width="90" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-70" value="&lt;div&gt;Уделять особое внимание качеству и очистке данных&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-68">
+          <mxGeometry x="90" width="270" height="60" as="geometry">
+            <mxRectangle width="270" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-71" value="&lt;div&gt;Разработать ETL-процессы с валидацией и очисткой данных. Провести аудит данных перед миграцией.&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-68">
+          <mxGeometry x="360" width="410" height="60" as="geometry">
+            <mxRectangle width="410" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-72" value="Данные" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-68">
+          <mxGeometry x="770" width="120" height="60" as="geometry">
+            <mxRectangle width="120" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-73" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-34">
+          <mxGeometry y="380" width="890" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-74" value="Средний" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-73">
+          <mxGeometry width="90" height="60" as="geometry">
+            <mxRectangle width="90" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-75" value="&lt;div&gt;Создать резервную копию и план восстановления (DR)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-73">
+          <mxGeometry x="90" width="270" height="60" as="geometry">
+            <mxRectangle width="270" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-76" value="&lt;div&gt;Обеспечить регулярное резервное копирование всех данных и компонентов новой системы. Протестировать процедуру восстановления.&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-73">
+          <mxGeometry x="360" width="410" height="60" as="geometry">
+            <mxRectangle width="410" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-77" value="Инфраструктура" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-73">
+          <mxGeometry x="770" width="120" height="60" as="geometry">
+            <mxRectangle width="120" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-78" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-34">
+          <mxGeometry y="440" width="890" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-79" value="Средний" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-78">
+          <mxGeometry width="90" height="60" as="geometry">
+            <mxRectangle width="90" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-80" value="&lt;div&gt;Разработать асинхронные механизмы интеграции&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-78">
+          <mxGeometry x="90" width="270" height="60" as="geometry">
+            <mxRectangle width="270" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-81" value="&lt;div&gt;Использовать очереди сообщений (RabbitMQ, Kafka) для обмена данными между сервисами, чтобы избежать блокировок и таймаутов.&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-78">
+          <mxGeometry x="360" width="410" height="60" as="geometry">
+            <mxRectangle width="410" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-82" value="Интеграция" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-78">
+          <mxGeometry x="770" width="120" height="60" as="geometry">
+            <mxRectangle width="120" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-84" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-34">
+          <mxGeometry y="500" width="890" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-85" value="Низкий" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-84">
+          <mxGeometry width="90" height="60" as="geometry">
+            <mxRectangle width="90" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-86" value="&lt;div&gt;Постепенно передавать знания команде&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-84">
+          <mxGeometry x="90" width="270" height="60" as="geometry">
+            <mxRectangle width="270" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-87" value="&lt;div&gt;Документировать архитектуру и процессы, проводить регулярные обзоры кода и архитектуры внутри команды.&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-84">
+          <mxGeometry x="360" width="410" height="60" as="geometry">
+            <mxRectangle width="410" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ifu0JlBtwIxs7Ys6Q85-88" value="Персонал" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="5ifu0JlBtwIxs7Ys6Q85-84">
+          <mxGeometry x="770" width="120" height="60" as="geometry">
+            <mxRectangle width="120" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
